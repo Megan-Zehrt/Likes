@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="Main">
+
+        <!--Navigation Bar-->
+        <div class="NavBar">
+            <p class="Navcontents">Network</p>
+        </div>
+
+        <!--Heading--> 
+        <div class="Header">Your Feed</div>
+
+        <!--Avatar Page-->
+        <div class="Box">
+            <div class="Avatarbox">
+                <div>
+                    <a target="_blank" href="https://th.bing.com/th/id/OIP.cfYLJhvQF7W1xydDlogoZwHaHc?w=160&h=180&c=7&r=0&o=5&pid=1.7">
+                        <img src="https://th.bing.com/th/id/OIP.cfYLJhvQF7W1xydDlogoZwHaHc?w=160&h=180&c=7&r=0&o=5&pid=1.7" alt="profile picture" class="pfp">
+                    </a>
+                    <div class="addavatar">Add an avatar</div>
+                    <p class="UserName">James Doe</p>
+                </div>
+            </div>
+
+            <!--User Pages-->
+            <div class="UserPages">
+
+            <!--First User Page-->
+            <div class="UserMain">
+            <div class="userbox">
+                <div class="topcontents">
+                    <h2 class="userheader">Neil M</h2>
+                    <p class="likenum" id="like1">9<p class="likeword">like(s)</p></p>
+                    <button class="likebutton" onclick="like('#like1')">Likes</button>
+                </div>
+
+                <div class="description">
+                    <p class="filler">I just set up this new discord bot, let me know what you all think.<a class="ub">link</a></p> 
+                </div>
+            </div>
+            </div>
+
+            <!--Second User Page-->
+            <div class="UserMain">
+            <div class="userbox">
+                <div class="topcontents">
+                    <h2 class="userheader">Nichole K</h2>
+                    <p class="likenum" id="like2">12<p class="likeword">like(s)</p></p>
+                    <button class="likebutton" onclick="like('#like2')">Likes</button>
+                </div>
+
+                <p class="filler">Just finished my <a class="ub">next comic</a>, check it out.</p>
+            </div>
+            </div>
+
+            <!--Third User Page-->
+            <div class="UserMain">
+            <div class="userbox">
+                <div class="topcontents">
+                    <h2 class="userheader">Jim R</h2>
+                    <p class="likenum" id="like3">9<p class="likeword">like(s)</p></p>
+                    <button class="likebutton" onclick="like('#like3')">Likes</button>
+                </div>
+
+                <p class="filler">I can't stop listening to the <a class="ub">new album</a>. Who else is liking it?</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
